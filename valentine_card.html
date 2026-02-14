@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Happy Valentine's Day</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Great+Vibes&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+<style>
+
+body {
+    background: linear-gradient(135deg, #ffeef8 0%, #ffc3da 50%, #ffb3d1 100%);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ================= ENVELOPE ================= */
+
+#envelope {
+    position: relative;
+    width: 420px;
+    height: 260px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background-color: #FF6863;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+/* ================= FRONT ================= */
+
+.front {
+    position: absolute;
+    width: 0;
+    height: 0;
+}
+
+/* ================= FLAP ================= */
+
+.flap {
+    z-index: 5;
+    border-top: 130px solid #FF6863;
+    border-left: 210px solid transparent;
+    border-right: 210px solid transparent;
+    border-bottom: 130px solid transparent;
+    transform-origin: top;
+    transition: 0.5s;
+}
+
+/* ================= POCKET ================= */
+
+.pocket {
+    z-index: 4;
+    border-left: 210px solid #FF8BA0;
+    border-right: 210px solid #FF8BA0;
+    border-bottom: 130px solid #FFA8B5;
+    border-top: 130px solid transparent;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+/* ================= LETTER ================= */
+
+.letter {
+    position: absolute;
+    background-color: white;
+    width: 90%;
+    height: 94%;
+    top: 5%;
+    left: 5%;
+    border-radius: 10px;
+    box-shadow: 0 2px 26px rgba(0, 0, 0, .12);
+    z-index: 2;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.letter-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    pointer-events: none;
+}
+
+.letter-content.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.words {
+    position: absolute;
+    left: 10%;
+    width: 80%;
+    font-size: 22px;
+    font-family: 'Dancing Script', cursive;
+    color: #5d370b;
+    text-align: center;
+}
+
+.line1 { top: 20%; }
+.line2 { top: 35%; }
+.line3 { top: 50%; }
+
+/* ================= PAPER HOLES ================= */
+
+.paper-hole {
+    position: absolute;
+    left: 15px;
+    width: 12px;
+    height: 12px;
+    background-color: #ffc3da;
+    border-radius: 50%;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.hole1 { top: 15%; }
+.hole2 { top: 35%; }
+.hole3 { top: 55%; }
+.hole4 { top: 75%; }
+
+/* ================= DECORATIVE FLOWERS ================= */
+
+.flower-decoration {
+    position: fixed;
+    width: 150px;
+    height: 150px;
+    opacity: 0.8;
+    z-index: 1;
+}
+
+.flower-bottom-left {
+    bottom: 20px;
+    left: 20px;
+    transform: rotate(0deg);
+}
+
+.flower-top-right {
+    top: 20px;
+    right: 20px;
+    transform: rotate(180deg) scaleX(-1);
+}
+
+/* ================= NAVIGATION BUTTON ================= */
+
+.nav-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 35px;
+    height: 35px;
+    background-color: #FF6863;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    z-index: 10;
+}
+
+.nav-btn:hover {
+    background-color: #ff8a86;
+    transform: scale(1.1);
+}
+
+.nav-btn:active {
+    transform: scale(0.95);
+}
+
+/* ================= WAX SEAL ================= */
+
+.wax-seal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+    z-index: 8;
+    transition: 0.5s;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+}
+
+/* ================= ANIMATION ================= */
+
+.open .flap {
+    transform: rotateX(180deg);
+    z-index: 1;
+}
+
+.open .letter {
+    transform: translateY(-100px);
+    z-index: 6;
+}
+
+.open .wax-seal {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.5);
+}
+
+.close .letter {
+    transform: translateY(0);
+}
+
+.close .wax-seal {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 500px) {
+
+    #envelope {
+        width: 90%;
+        aspect-ratio: 420 / 260;
+        height: auto;
+    }
+
+    .flap {
+        border-top: 32vw solid #FF6863;
+        border-left: 45vw solid transparent;
+        border-right: 45vw solid transparent;
+        border-bottom: 32vw solid transparent;
+    }
+
+    .pocket {
+        border-left: 45vw solid #FF8BA0;
+        border-right: 45vw solid #FF8BA0;
+        border-bottom: 32vw solid #FFA8B5;
+        border-top: 32vw solid transparent;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- Bunga dekoratif pojok bawah kiri -->
+<svg class="flower-decoration flower-bottom-left" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Petals -->
+  <ellipse cx="100" cy="60" rx="30" ry="50" fill="#FF6B8A" transform="rotate(0 100 100)"/>
+  <ellipse cx="100" cy="60" rx="30" ry="50" fill="#FF4D6D" transform="rotate(72 100 100)"/>
+  <ellipse cx="100" cy="60" rx="30" ry="50" fill="#FF6B8A" transform="rotate(144 100 100)"/>
+  <ellipse cx="100" cy="60" rx="30" ry="50" fill="#FF4D6D" transform="rotate(216 100 100)"/>
+  <ellipse cx="100" cy="60" rx="30" ry="50" fill="#FF6B8A" transform="rotate(288 100 100)"/>
+  <!-- Center -->
+  <circle cx="100" cy="100" r="25" fill="#FFD700"/>
+  <circle cx="100" cy="100" r="18" fill="#FFA500"/>
+  <!-- Leaves -->
+  
+  
+</svg>
+
+<!-- Bunga dekoratif pojok kanan atas -->
+<svg class="flower-decoration flower-top-right" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Petals -->
+  <ellipse cx="100" cy="60" rx="30" ry="50" fill="#FF6B8A" transform="rotate(0 100 100)"/>
+  <ellipse cx="100" cy="60" rx="30" ry="50" fill="#FF4D6D" transform="rotate(72 100 100)"/>
+  <ellipse cx="100" cy="60" rx="30" ry="50" fill="#FF6B8A" transform="rotate(144 100 100)"/>
+  <ellipse cx="100" cy="60" rx="30" ry="50" fill="#FF4D6D" transform="rotate(216 100 100)"/>
+  <ellipse cx="100" cy="60" rx="30" ry="50" fill="#FF6B8A" transform="rotate(288 100 100)"/>
+  <!-- Center -->
+  <circle cx="100" cy="100" r="25" fill="#FFD700"/>
+  <circle cx="100" cy="100" r="18" fill="#FFA500"/>
+  <!-- Leaves -->
+
+</svg>
+
+<div id="envelope" class="close">
+
+    <div class="front flap"></div>
+    <div class="front pocket"></div>
+    
+    <!-- Segel Lilin di tengah amplop -->
+    <img src="1771061711724_segel_lilin.png" alt="Wax Seal" class="wax-seal">
+
+    <div class="letter">
+        
+        <!-- LETTER 1 -->
+        <div class="letter-content letter1 active">
+            <!-- Bolong-bolong di kiri -->
+            <div class="paper-hole hole1"></div>
+            <div class="paper-hole hole2"></div>
+            <div class="paper-hole hole3"></div>
+            <div class="paper-hole hole4"></div>
+            
+            <div class="nav-btn next-btn">▶</div>
+            <p class="words line1">Happy Valentine's Day</p>
+            <p class="words line2">Putri Aulia Sari</p>
+            <img src="gambar.png" alt="Seal" style="position: absolute; bottom: 30px; left: 50%; transform: translateX(-50%); width: 60px;">
+        </div>
+
+        <!-- LETTER 2 -->
+        <div class="letter-content letter2">
+            <!-- Bolong-bolong di kiri -->
+            <div class="paper-hole hole1"></div>
+            <div class="paper-hole hole2"></div>
+            <div class="paper-hole hole3"></div>
+            <div class="paper-hole hole4"></div>
+            
+            <div class="nav-btn prev-btn">◀</div>
+            <p class="words line1">Hadiah Buat Putri</p>
+            
+            <!-- Gambar sejajar kiri-kanan -->
+            <img src="gopay.png" alt="Gopay" style="position: absolute; bottom: 40px; left: 37%; transform: translateX(-50%); width: 80px; height: 80px;">
+            <img src="gambar2.png" alt="Seal" style="position: absolute; bottom: 45px; right: 35%; transform: translateX(50%); width: 80px; height: 80px;">
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+$(document).ready(function () {
+
+    var envelope = $("#envelope");
+    var letter = $(".letter");
+    var letter1 = $(".letter1");
+    var letter2 = $(".letter2");
+
+    // Klik amplop
+    envelope.on("click", function (e) {
+        if ($(e.target).closest('.letter').length) return;
+
+        envelope.toggleClass("open close");
+    });
+
+    // Klik tombol next (>) untuk ke letter 2
+    $(".next-btn").on("click", function (e) {
+        e.stopPropagation();
+
+        if (!envelope.hasClass("open")) return;
+
+        // Fade out letter 1 dulu
+        letter1.removeClass("active");
+        
+        // Tunggu animasi fade out selesai, baru munculkan letter 2
+        setTimeout(function() {
+            letter2.addClass("active");
+        }, 400);
+    });
+
+    // Klik tombol prev (<) untuk kembali
+    $(".prev-btn").on("click", function (e) {
+        e.stopPropagation();
+
+        // Fade out letter 2 dulu
+        letter2.removeClass("active");
+        
+        // Tunggu sebentar, baru tutup amplop dan reset ke letter 1
+        setTimeout(function() {
+            envelope.removeClass("open").addClass("close");
+            // Tunggu amplop tertutup baru aktifkan letter 1 lagi
+            setTimeout(function() {
+                letter1.addClass("active");
+            }, 500);
+        }, 400);
+    });
+
+});
+</script>
+
+</body>
+</html>
