@@ -70,7 +70,9 @@ body {
     position: absolute;
     background-color: white;
     width: 90%;
-    height: 94%;
+    max-height: 90%;
+    height: auto;
+    min-height: 200px;
     top: 5%;
     left: 5%;
     border-radius: 10px;
@@ -78,35 +80,39 @@ body {
     z-index: 2;
     transition: 0.5s;
     overflow: hidden;
+    padding: 50px 20px 40px 20px;
+    box-sizing: border-box;
 }
 
 .letter-content {
-    position: absolute;
+    position: relative;
     width: 100%;
-    height: 100%;
+    height: auto;
     opacity: 0;
     transition: opacity 0.4s ease;
     pointer-events: none;
+    display: none;
 }
 
 .letter-content.active {
     opacity: 1;
     pointer-events: auto;
+    display: block;
 }
 
 .words {
-    position: absolute;
-    left: 10%;
-    width: 80%;
+    position: relative;
+    width: 100%;
     font-size: 22px;
     font-family: 'Dancing Script', cursive;
     color: #5d370b;
     text-align: center;
+    margin: 15px 0;
 }
 
-.line1 { top: 20%; }
-.line2 { top: 35%; }
-.line3 { top: 50%; }
+.line1 { margin-top: 0; }
+.line2 { margin-top: 20px; }
+.line3 { margin-top: 20px; }
 
 /* ================= PAPER HOLES ================= */
 
@@ -120,10 +126,10 @@ body {
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
-.hole1 { top: 15%; }
-.hole2 { top: 35%; }
-.hole3 { top: 55%; }
-.hole4 { top: 75%; }
+.hole1 { top: 20px; }
+.hole2 { top: 60px; }
+.hole3 { top: 100px; }
+.hole4 { top: 140px; }
 
 /* ================= DECORATIVE FLOWERS ================= */
 
@@ -260,8 +266,7 @@ body {
   <circle cx="100" cy="100" r="25" fill="#FFD700"/>
   <circle cx="100" cy="100" r="18" fill="#FFA500"/>
   <!-- Leaves -->
-  
-  
+
 </svg>
 
 <!-- Bunga dekoratif pojok kanan atas -->
@@ -276,7 +281,6 @@ body {
   <circle cx="100" cy="100" r="25" fill="#FFD700"/>
   <circle cx="100" cy="100" r="18" fill="#FFA500"/>
   <!-- Leaves -->
-
 </svg>
 
 <div id="envelope" class="close">
@@ -300,7 +304,9 @@ body {
             <div class="nav-btn next-btn">▶</div>
             <p class="words line1">Happy Valentine's Day</p>
             <p class="words line2">Putri Aulia Sari</p>
-            <img src="gambar.png" alt="Seal" style="position: absolute; bottom: 30px; left: 50%; transform: translateX(-50%); width: 60px;">
+            <div style="text-align: center; margin-top: 30px;">
+                <img src="gambar2.png" alt="Seal" style="width: 60px;">
+            </div>
         </div>
 
         <!-- LETTER 2 -->
@@ -315,8 +321,10 @@ body {
             <p class="words line1">Hadiah Buat Putri</p>
             
             <!-- Gambar sejajar kiri-kanan -->
-            <img src="gopay.png" alt="Gopay" style="position: absolute; bottom: 40px; left: 37%; transform: translateX(-50%); width: 80px; height: 80px;">
-            <img src="gambar2.png" alt="Seal" style="position: absolute; bottom: 45px; right: 35%; transform: translateX(50%); width: 80px; height: 80px;">
+            <div style="display: flex; justify-content: space-around; align-items: center; margin-top: 30px; gap: 20px;">
+                <img src="gopay.png" alt="Gopay" style="width: 80px; height: 80px;">
+                <img src="gambar2.png" alt="Seal" style="width: 80px; height: 80px;">
+            </div>
         </div>
 
     </div>
