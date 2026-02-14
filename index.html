@@ -148,23 +148,37 @@ body {
     margin: 10px;
 }
 
-/* Penyesuaian khusus untuk letter2 agar gambar sejajar */
+/* Penyesuaian khusus untuk letter2 agar semua konten muat */
 .letter2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 5px; /* Jarak antar elemen lebih kecil */
 }
 
+/* Kurangi margin untuk letter2 agar lebih compact */
 .letter2 .words {
-    margin-bottom: 20px;
+    margin: 2px 0; /* Margin sangat kecil */
 }
 
+/* Container untuk gambar */
 .letter2 .gift-images {
     display: flex;
     justify-content: center;
-    gap: 30px;
-    flex-wrap: wrap;
+    gap: 8px; /* Jarak antar gambar */
+    margin: 5px 0; /* Margin atas-bawah kecil */
+}
+
+/* Perkecil ukuran gambar di letter2 agar lebih banyak ruang untuk teks */
+.letter2 .gift-images img {
+    max-width: 70px; /* Diperkecil dari 80px */
+    margin: 5px; /* Margin lebih kecil */
+}
+
+/* Font size khusus untuk letter2 agar lebih kecil dan muat */
+.letter2 .line2 {
+    font-size: clamp(16px, 4.5vw, 28px); /* Sedikit lebih kecil */
 }
 
 /* ================= DECORATIVE FLOWERS ================= */
@@ -298,6 +312,11 @@ body {
     .line2 {
         font-size: clamp(16px, 4.5vw, 24px);
     }
+
+    /* Gambar lebih kecil lagi di mobile */
+    .letter2 .gift-images img {
+        max-width: 60px;
+    }
 }
 
 </style>
@@ -353,7 +372,7 @@ body {
             
             <div class="nav-btn next-btn">▶</div>
             <p class="words line1">Happy Valentine's Day</p>
-            <p class="words line2">Putri Sari</p>
+            <p class="words line2">Putri Alulia Sari</p>
             <img src="gambar.png" alt="Seal" style="width: 60px;">
         </div>
 
@@ -373,6 +392,9 @@ body {
                 <img src="gopay.png" alt="Gopay">
                 <img src="gambar2.png" alt="Seal">
             </div>
+            
+            <!-- Teks tambahan di bawah gambar -->
+            <p class="words line2">Maaf cmn bisa ngasih ini</p>
         </div>
 
     </div>
