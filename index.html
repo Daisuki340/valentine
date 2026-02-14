@@ -87,26 +87,19 @@ body {
     opacity: 0;
     transition: opacity 0.4s ease;
     pointer-events: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 .letter-content.active {
     opacity: 1;
     pointer-events: auto;
 }
-
-.words {
-    position: absolute;
-    left: 10%;
-    width: 80%;
-    font-size: 22px;
-    font-family: 'Dancing Script', cursive;
-    color: #5d370b;
-    text-align: center;
-}
-
-.line1 { top: 20%; }
-.line2 { top: 35%; }
-.line3 { top: 50%; }
 
 /* ================= PAPER HOLES ================= */
 
@@ -124,6 +117,55 @@ body {
 .hole2 { top: 35%; }
 .hole3 { top: 55%; }
 .hole4 { top: 75%; }
+
+/* ================= TEKS UTAMA ================= */
+
+.words {
+    font-family: 'Dancing Script', cursive;
+    color: #5d370b;
+    margin: 10px 0;
+    line-height: 1.3;
+}
+
+/* Ukuran huruf responsif */
+.line1 {
+    font-size: clamp(22px, 7vw, 42px);
+    font-weight: bold;
+}
+
+.line2 {
+    font-size: clamp(18px, 5vw, 32px);
+}
+
+.line3 {
+    font-size: clamp(16px, 4vw, 28px);
+}
+
+/* Gambar dekoratif dalam surat */
+.letter-content img {
+    max-width: 80px;
+    height: auto;
+    margin: 10px;
+}
+
+/* Penyesuaian khusus untuk letter2 agar gambar sejajar */
+.letter2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.letter2 .words {
+    margin-bottom: 20px;
+}
+
+.letter2 .gift-images {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
 
 /* ================= DECORATIVE FLOWERS ================= */
 
@@ -176,6 +218,12 @@ body {
 
 .nav-btn:active {
     transform: scale(0.95);
+}
+
+/* Tombol prev di letter2 */
+.prev-btn {
+    left: 10px;
+    right: auto;
 }
 
 /* ================= WAX SEAL ================= */
@@ -241,6 +289,15 @@ body {
         border-bottom: 32vw solid #FFA8B5;
         border-top: 32vw solid transparent;
     }
+
+    /* Perkecil ukuran huruf di layar kecil */
+    .line1 {
+        font-size: clamp(18px, 6vw, 30px);
+    }
+
+    .line2 {
+        font-size: clamp(16px, 4.5vw, 24px);
+    }
 }
 
 </style>
@@ -260,8 +317,6 @@ body {
   <circle cx="100" cy="100" r="25" fill="#FFD700"/>
   <circle cx="100" cy="100" r="18" fill="#FFA500"/>
   <!-- Leaves -->
-  
-  
 </svg>
 
 <!-- Bunga dekoratif pojok kanan atas -->
@@ -276,7 +331,6 @@ body {
   <circle cx="100" cy="100" r="25" fill="#FFD700"/>
   <circle cx="100" cy="100" r="18" fill="#FFA500"/>
   <!-- Leaves -->
-
 </svg>
 
 <div id="envelope" class="close">
@@ -299,8 +353,8 @@ body {
             
             <div class="nav-btn next-btn">▶</div>
             <p class="words line1">Happy Valentine's Day</p>
-            <p class="words line2">Putri Aulia Sari</p>
-            <img src="gambar.png" alt="Seal" style="position: absolute; bottom: 30px; left: 50%; transform: translateX(-50%); width: 60px;">
+            <p class="words line2">Putri Sari</p>
+            <img src="gambar.png" alt="Seal" style="width: 60px;">
         </div>
 
         <!-- LETTER 2 -->
@@ -312,11 +366,13 @@ body {
             <div class="paper-hole hole4"></div>
             
             <div class="nav-btn prev-btn">◀</div>
-            <p class="words line1">Hadiah Buat Putri</p>
+            <p class="words line2">Hadiah Buat Putri</p>
             
             <!-- Gambar sejajar kiri-kanan -->
-            <img src="gopay.png" alt="Gopay" style="position: absolute; bottom: 40px; left: 37%; transform: translateX(-50%); width: 80px; height: 80px;">
-            <img src="gambar2.png" alt="Seal" style="position: absolute; bottom: 45px; right: 35%; transform: translateX(50%); width: 80px; height: 80px;">
+            <div class="gift-images">
+                <img src="gopay.png" alt="Gopay">
+                <img src="gambar2.png" alt="Seal">
+            </div>
         </div>
 
     </div>
