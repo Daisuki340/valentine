@@ -477,7 +477,7 @@ Oleh karena itu, dirancang Sistem Manajemen UMKM Desa berbasis website sebagai s
 # 📈 TIMELINE PROJECT
 
 <p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=12PgHEx3ksbjpLMQwEn6o9ZxrX07B_vOy" width="100%">
+  <img src="https://drive.google.com/uc?export=view&id=1IkWFwueq4GggoDEAUr7bcWGMI1mNZX6Y" width="100%">
 </p>
 
 ---
