@@ -1,17 +1,18 @@
 <p align="center">
-  <h1 align="center">🌿 SISTEM MANAJEMEN UMKM DESA</h1>
+  <img src="https://drive.google.com/uc?export=view&id=1k8yLY8Duc2lbgHNP-VrObB2X5J4oAt9M" width="100%">
+</p>
 
-  <p align="center">
-    Sistem berbasis website untuk mendukung digitalisasi,
-    monitoring, pengelolaan, dan pengembangan UMKM Desa.
-  </p>
+<h1 align="center">🌿 SISTEM MANAJEMEN UMKM DESA</h1>
 
-  <br>
+<p align="center">
+  Sistem berbasis website untuk mendukung digitalisasi,
+  monitoring, pengelolaan, dan pengembangan UMKM Desa.
+</p>
 
+<p align="center">
   <a href="https://umkmdesagandoang.my.id/views/layouts/bantuan.php">
     <img src="https://img.shields.io/badge/LIVE%20DEMO-VISIT%20WEBSITE-2ea44f?style=for-the-badge&logo=googlechrome&logoColor=white">
   </a>
-
 </p>
 
 ---
@@ -36,6 +37,10 @@ Industri Mikro dan Kecil (IMK) memiliki peran penting dalam perekonomian Indones
 
 Berdasarkan data BPS tahun 2024, terdapat sekitar 4,4 juta usaha IMK di Indonesia.
 
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=1k8yLY8Duc2lbgHNP-VrObB2X5J4oAt9M" width="90%">
+</p>
+
 ---
 
 ## Kendala UMKM
@@ -50,6 +55,10 @@ Sekitar 59,97% usaha mengalami berbagai kesulitan terutama pada:
 
 Kondisi tersebut menjadi salah satu hambatan utama perkembangan UMKM Desa.
 
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=1ltbA-FgiYVlxw_ueZhkA4sySe7ews8NB" width="90%">
+</p>
+
 ---
 
 ## Asta Cita dan Rencana Pembangunan
@@ -60,11 +69,16 @@ Kondisi tersebut belum sepenuhnya sejalan dengan upaya pemerintah dalam:
 - Penguatan Teknologi Pemerintah Digital
 - Pemanfaatan Data Digital Nasional
 
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=1BL6C8zN405OuV1luc3lNF49fqo_ns9Sy" width="90%">
+</p>
+
 ---
 
 ## Solusi
 
 Oleh karena itu, dirancang Sistem Manajemen UMKM Desa berbasis website sebagai solusi untuk:
+
 - Mendukung digitalisasi UMKM desa
 - Meningkatkan transparansi pengelolaan UMKM
 - Mempermudah monitoring UMKM
@@ -72,20 +86,33 @@ Oleh karena itu, dirancang Sistem Manajemen UMKM Desa berbasis website sebagai s
 - Membantu pengambilan keputusan desa
 - Mendukung promosi dan pemasaran produk UMKM
 
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=1ph_5YgivkfuGVDi-KJ7K8taVhxnWcvFb" width="70%">
+</p>
+
 ---
 
 # 🗣️ WAWANCARA STAKEHOLDER
 
 # 👨‍💼 Kepala Desa Gandoang
 
-## Permasalahan
+### Pertanyaan
 
-- Belum terdapat wadah khusus UMKM Desa
+> “Apakah di desa ini terdapat wadah untuk para UMKM?”
+
+### Jawaban
+
+> “Untuk sekarang ya UMKM Desa doang yang memiliki wadah, seperti contohnya PKK gitu ya, kalau UMKM untuk pengusaha belum ada, karena juga kami terkendala, bisa dibilang sistemnya belum ada.”
+
+---
+
+### Permasalahan
+
+- Belum terdapat wadah UMKM
 - Sistem pengelolaan UMKM belum tersedia
 - Pendataan UMKM masih manual
-- Monitoring UMKM masih sulit dilakukan
-- Event bazaar dilakukan mendadak
-- Sulit melakukan pendataan bantuan UMKM
+- Monitoring UMKM masih sulit
+- Event bazaar masih dilakukan mendadak
 
 ---
 
@@ -95,22 +122,21 @@ Oleh karena itu, dirancang Sistem Manajemen UMKM Desa berbasis website sebagai s
 |---|---|---|
 | Tidak adanya Sistem Manajemen UMKM Desa | Membuat Sistem Manajemen UMKM Desa berbasis hybrid (Online dan Offline) | Agar Manajemen UMKM Desa dapat dilakukan dengan efisien serta tidak merubah sepenuhnya sistem yang telah ada |
 | Terbatasnya informasi orang yang berwirausaha (UMKM) di Desa | Perlu adanya pencatatan data setiap orang yang berwirausaha di Desa | Untuk memudahkan dalam pengambilan informasi saat dibutuhkan |
-| Sulit beradaptasi terhadap sistem atau teknologi baru | Mempertahankan sistem lama seperti WhatsApp dan dokumen fisik | Tidak semua pengguna dapat beradaptasi terhadap lingkungan baru |
-| Sulit memahami mekanisme online | Perlu adanya laman tutorial sistem | Agar mempermudah mekanisme sistem online |
-| Tidak adanya pendataan bantuan UMKM | Perlu adanya form pengajuan bantuan | Untuk mendukung pembangunan UMKM Desa |
+| Sulit beradaptasi terhadap sistem atau teknologi yang baru | Perlu mempertahankan sistem yang sudah ada seperti komunikasi lewat WhatsApp dan dokumen fisik | Tidak semua pengguna dapat beradaptasi terhadap lingkungan baru |
+| Sulit memahami mekanisme online | Perlu adanya laman tutorial khususnya untuk sistem online | Agar memudahkan mekanisme sistem online |
+| Tidak adanya pendataan bantuan atau program UMKM | Perlu adanya form pengajuan bantuan atau program untuk UMKM | Untuk mendukung pembangunan UMKM Desa |
 
 ---
 
 # 🐟 UMKM Budidaya Lele
 
-## Permasalahan
+### Permasalahan
 
 - Modal usaha masih terbatas
 - Sulit mendapatkan bantuan
-- Pemasaran produk masih terbatas
+- Pemasaran masih terbatas
 - Membutuhkan media promosi online
-- Membutuhkan monitoring UMKM
-- Membutuhkan katalog produk digital
+- Membutuhkan sistem monitoring
 
 ---
 
@@ -118,9 +144,9 @@ Oleh karena itu, dirancang Sistem Manajemen UMKM Desa berbasis website sebagai s
 
 | Persepsi | Solusi | Alasan |
 |---|---|---|
-| Tidak terdapat bantuan atau program UMKM | Menyediakan fitur bantuan dan pengajuan bantuan | Agar bantuan lebih terstruktur dan tepat sasaran |
-| Tidak mengubah sistem lama | Menggunakan WhatsApp sebagai media komunikasi | Karena mudah digunakan pengguna |
-| Sulit memasarkan produk | Menyediakan katalog produk dan informasi mitra | Agar produk lebih mudah dipasarkan |
+| Tidak terdapat bantuan atau program untuk pembudidaya/UMKM | Menyediakan fitur pencatatan dan pengelolaan bantuan/program UMKM | Agar penyaluran bantuan lebih terdata dan tepat sasaran |
+| Tidak mengubah sistem yang sudah ada | Menggunakan WhatsApp sebagai media komunikasi utama | Karena mudah digunakan dan familiar |
+| Sulit mencari atau memasarkan produk ke mitra | Menyediakan katalog produk dan informasi mitra dalam sistem | Agar produk lebih mudah dipromosikan |
 
 ---
 
@@ -128,25 +154,25 @@ Oleh karena itu, dirancang Sistem Manajemen UMKM Desa berbasis website sebagai s
 
 # 📌 Kebutuhan Fungsional
 
-| Kode | Deskripsi | Kebutuhan |
+| Kode | Deskripsi | Kebutuhan Fungsional |
 |---|---|---|
-| FS-01 | Registrasi, login, dan logout sistem | Authentication |
-| FS-02 | Monitoring perkembangan UMKM desa | Monitoring |
-| FS-03 | Pengelolaan profil UMKM dan produk | Manajemen UMKM |
-| FS-04 | Menampilkan katalog produk UMKM | Katalog Produk |
-| FS-05 | Pengajuan bantuan UMKM | Bantuan |
-| FS-06 | Proses bantuan UMKM | Validasi Bantuan |
+| FS-01 | Setiap pengguna dapat melakukan registrasi, login, dan logout | Authentication |
+| FS-02 | Administrator dan Kepala Desa dapat memantau perkembangan UMKM | Monitoring |
+| FS-03 | Pemilik UMKM dapat mengelola profil dan produk | Manajemen UMKM |
+| FS-04 | Seluruh pengguna dapat melihat produk | Lihat Produk |
+| FS-05 | Pemilik UMKM dapat mengajukan bantuan | Ajukan Bantuan |
+| FS-06 | Kepala Desa dapat memproses bantuan | Proses Bantuan |
 
 ---
 
 # 🔐 Kebutuhan Non-Fungsional
 
-| Kode | Deskripsi |
-|---|---|
-| NFS-01 | Responsive website |
-| NFS-02 | Role access control |
-| NFS-03 | JWT Authentication |
-| NFS-04 | Data Encryption |
+| Kode | Deskripsi | Kebutuhan |
+|---|---|---|
+| NFS-01 | Antarmuka responsif dan dapat digunakan di perangkat mobile | Responsive |
+| NFS-02 | Hak akses setiap aktor dibatasi sesuai peran | Security |
+| NFS-03 | Sistem menerapkan autentikasi berbasis token (JWT) | Security |
+| NFS-04 | Data pengguna disimpan dalam bentuk terenkripsi | Security |
 
 ---
 
@@ -167,17 +193,17 @@ Oleh karena itu, dirancang Sistem Manajemen UMKM Desa berbasis website sebagai s
 ## 🛡️ Administrator
 
 - Verifikasi UMKM
-- Review bantuan
-- Monitoring aktivitas UMKM
+- Me-review bantuan
+- Memantau aktivitas UMKM
 
 ---
 
 ## 🏛️ Kepala Desa
 
 - Verifikasi UMKM
-- Review bantuan
+- Me-review bantuan
 - Memproses bantuan
-- Monitoring aktivitas UMKM
+- Memantau aktivitas UMKM
 
 ---
 
@@ -195,7 +221,7 @@ Oleh karena itu, dirancang Sistem Manajemen UMKM Desa berbasis website sebagai s
 3. Sistem tidak mencakup proses jual beli online
 4. Sistem tidak menyediakan fitur chat internal
 5. Sistem tidak menggunakan payment gateway
-6. Pengguna harus login untuk mengakses fitur tertentu
+6. Pengguna harus terdaftar untuk mengakses fitur tertentu
 
 ---
 
@@ -203,8 +229,8 @@ Oleh karena itu, dirancang Sistem Manajemen UMKM Desa berbasis website sebagai s
 
 | Aktor | Deskripsi |
 |---|---|
-| UMKM | Registrasi akun, login, mengelola profil dan produk |
-| Administrator Sistem | Verifikasi UMKM dan monitoring sistem |
+| UMKM | Registrasi akun, login, mengelola profil usaha dan produk, mengajukan bantuan |
+| Administrator Sistem | Verifikasi data UMKM dan monitoring aktivitas |
 | Kepala Desa | Persetujuan atau penolakan bantuan |
 | Pengguna Tamu | Melihat informasi UMKM tanpa login |
 
@@ -238,7 +264,7 @@ Oleh karena itu, dirancang Sistem Manajemen UMKM Desa berbasis website sebagai s
 
 ---
 
-## Login Pengguna
+## Login
 
 <p align="center">
   <img src="https://drive.google.com/uc?export=view&id=1bkieFmbjhldULjkQmMEn_cRinet5gYSW" width="90%">
@@ -254,22 +280,6 @@ Oleh karena itu, dirancang Sistem Manajemen UMKM Desa berbasis website sebagai s
 
 ---
 
-## Mengelola Produk
-
-<p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1mgMuMbx2G5af6CY13OgeUTvnX3-d5WSW" width="90%">
-</p>
-
----
-
-## Mengelola Profile UMKM
-
-<p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1F_6NcIuhon1Dz-I016BsHUoptMz0_RSJ" width="90%">
-</p>
-
----
-
 ## Validasi UMKM
 
 <p align="center">
@@ -278,9 +288,9 @@ Oleh karena itu, dirancang Sistem Manajemen UMKM Desa berbasis website sebagai s
 
 ---
 
-# 🎨 WIREFRAME SYSTEM
+# 🎨 WIREFRAME
 
-# 🌐 Landing Page Informasi
+# 🌐 Landingpage Informasi
 
 <p align="center">
   <img src="https://drive.google.com/uc?export=view&id=1PwxY9WlDS0OVEXfPDsAsQPZi4V0vbjTh" width="100%">
@@ -288,7 +298,7 @@ Oleh karena itu, dirancang Sistem Manajemen UMKM Desa berbasis website sebagai s
 
 ---
 
-# 🛒 Landing Page Katalog
+# 🛒 Landingpage Katalog
 
 <p align="center">
   <img src="https://drive.google.com/uc?export=view&id=1AR4NbrhKRm-d6XqXV7dybZtsoWJ_S2Ut" width="100%">
@@ -328,15 +338,7 @@ Oleh karena itu, dirancang Sistem Manajemen UMKM Desa berbasis website sebagai s
 
 ---
 
-# 👤 Profile UMKM
-
-<p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1TVsXnGKNUf6bNSgvfcwwV1_UAau0NPGL" width="100%">
-</p>
-
----
-
-# 📦 Produk UMKM
+# 📦 Kelola Produk
 
 <p align="center">
   <img src="https://drive.google.com/uc?export=view&id=17-IoMkbFwrP8hU9Cu6h1nXBNsppSKSpp" width="100%">
@@ -360,92 +362,37 @@ Oleh karena itu, dirancang Sistem Manajemen UMKM Desa berbasis website sebagai s
 
 ---
 
-# 🎨 UI / UX DESIGN
-
-# 🏠 UX Landing Page Informasi
-
-<p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1k8yLY8Duc2lbgHNP-VrObB2X5J4oAt9M" width="100%">
-</p>
-
----
-
-# 🛒 UX Landing Page Catalogue
-
-<p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1ltbA-FgiYVlxw_ueZhkA4sySe7ews8NB" width="100%">
-</p>
-
----
-
-# 🔐 UX Login
-
-<p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1ExWiEphzblnvQ4t1fBD30nCXnOsVfdia" width="90%">
-</p>
-
----
-
-# 🏪 UX Dashboard UMKM
-
-<p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1ph_5YgivkfuGVDi-KJ7K8taVhxnWcvFb" width="100%">
-</p>
-
----
-
-# 📊 UX Dashboard Admin
-
-<p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1BL6C8zN405OuV1luc3lNF49fqo_ns9Sy" width="100%">
-</p>
-
----
-
-# 👤 UX Profile UMKM
-
-<p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1lrm6HN8LocVwosNCQhT_7EVSljdZFGXX" width="100%">
-</p>
-
----
-
-# 📦 UX Detail Product
-
-<p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1ujHUqCsINdYTZ29pL-57G58zy6bwvS-6" width="100%">
-</p>
-
----
-
-# 📝 UX Ajukan Bantuan
-
-<p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=11INGZzx9PML-7S7YukLbvAAum9bn1_lt" width="100%">
-</p>
-
----
-
-# 🗺️ UX Journey
-
-<p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1z6Kb-LRVtH8g_snQPGjIWFY9hvDkfQv_" width="100%">
-</p>
-
----
-
 # 🎯 IDENTIFIKASI PRIORITAS PENGEMBANGAN
 
 # 🔥 HIGH PRIORITY
 
+## UMKM
+
 | Fitur | Alasan |
 |---|---|
-| Registrasi | Gerbang utama sistem |
-| Login | Seluruh sistem bergantung pada login |
+| Fitur Registrasi | Gerbang utama sistem |
+| Fitur Login | Seluruh sistem bergantung pada sesi login |
 | Reset Password | Menjaga akses pengguna |
-| Kelola Profile | Data utama UMKM |
-| Kelola Produk | Informasi utama publik |
-| Katalog Produk | Mempermudah pencarian produk |
+| Fitur Profile | Dibutuhkan untuk verifikasi UMKM |
+| Fitur Mengelola UMKM | Data inti sistem |
+| Fitur Mengelola Produk | Informasi utama yang ditampilkan ke publik |
+
+---
+
+## Administrator
+
+| Fitur | Alasan |
+|---|---|
+| Fitur Verifikasi UMKM | Validasi data UMKM |
+| Monitoring Aktivitas UMKM | Monitoring sistem secara menyeluruh |
+
+---
+
+## Semua Pengguna
+
+| Fitur | Alasan |
+|---|---|
+| Fitur Katalog | Mempermudah pencarian produk |
 
 ---
 
@@ -454,9 +401,9 @@ Oleh karena itu, dirancang Sistem Manajemen UMKM Desa berbasis website sebagai s
 | Aktor | Fitur | Alasan |
 |---|---|---|
 | UMKM | Mengajukan Bantuan | Bergantung pada validasi |
-| Administrator | Review bantuan | Bergantung pengajuan bantuan |
-| Kepala Desa | Review bantuan | Mengikuti proses bantuan |
-| Kepala Desa | Memproses bantuan | Workflow lebih kompleks |
+| Administrator | Me-review bantuan | Bergantung pada pengajuan bantuan |
+| Kepala Desa | Me-review bantuan | Mengikuti proses bantuan |
+| Kepala Desa | Memproses bantuan | Membutuhkan alur bisnis lebih kompleks |
 
 ---
 
@@ -464,20 +411,20 @@ Oleh karena itu, dirancang Sistem Manajemen UMKM Desa berbasis website sebagai s
 
 | Fitur | PIC | Estimasi Waktu | Workload Detail |
 |---|---|---|---|
-| Registrasi & Login | Bajang Riau Asqor | 1 Minggu | Sistem keamanan akun, session, dan hak akses |
-| Kelola Profil UMKM | Dede Firdaus | 1 Minggu | Form data usaha dan upload foto |
+| Registrasi & Login | Bajang Riau Asqor | 1 Minggu | Sistem keamanan akun, enkripsi password, session, dan hak akses |
+| Kelola Profil UMKM | Dede Firdaus | 1 Minggu | Form data usaha, upload foto profil dan logo |
 | Kelola Produk | Aldi Wijaya | 1 Minggu | CRUD produk dan upload gambar |
-| Pengajuan Bantuan | Muhammad Arif Wicaksono | 1.5 Minggu | Pengiriman dokumen bantuan |
-| Validasi Bantuan | Muhammad Abdul Halim | 1.5 Minggu | Dashboard validasi bantuan |
+| Pengajuan Bantuan | Muhammad Arif Wicaksono | 1.5 Minggu | Pengiriman dokumen dan validasi berkas |
+| Validasi Bantuan | Muhammad Abdul Halim | 1.5 Minggu | Dashboard validasi bantuan dan perubahan status |
 | Landing Page & Katalog | Aldi Wijaya | 1 Minggu | Tampilan publik dan katalog |
 | Journey UMKM | Bajang Riau Asqor | 1 Minggu | Riwayat perjalanan UMKM |
 
 ---
 
-# 📈 TIMELINE PROJECT
+# 📈 VISUALISASI BEBAN KERJA
 
 <p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1IkWFwueq4GggoDEAUr7bcWGMI1mNZX6Y" width="100%">
+  <img src="https://drive.google.com/uc?export=view&id=12PgHEx3ksbjpLMQwEn6o9ZxrX07B_vOy" width="100%">
 </p>
 
 ---
@@ -488,8 +435,8 @@ Oleh karena itu, dirancang Sistem Manajemen UMKM Desa berbasis website sebagai s
 
 Website mampu:
 - Menampilkan katalog produk
-- Mengelola data UMKM
-- Mengelola profil UMKM
+- Pengelolaan UMKM
+- Pengelolaan profil
 
 ---
 
@@ -500,32 +447,21 @@ Website mampu:
 - Kelola Produk
 - Katalog Produk
 - Integrasi WhatsApp
-- Pengajuan Bantuan
-- Journey UMKM
+- Sistem Pengajuan Bantuan
+- Fitur Journey UMKM
 
 ---
 
 # 🛠️ TECH STACK
 
-<p align="left">
-
-<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white">
-
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
-
-<img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white">
-
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
-
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
-
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
-
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
-
-</p>
+- PHP
+- MySQL
+- Bootstrap
+- JavaScript
+- HTML5
+- CSS3
+- Git
+- GitHub
 
 ---
 
@@ -554,13 +490,9 @@ Management_UMKM_Desa_Gandoang/
 git clone https://github.com/Rif340/Management_UMKM_Desa_Gandoang.git
 ```
 
----
-
 ## 2️⃣ Import Database
 
 Import database ke phpMyAdmin atau MySQL.
-
----
 
 ## 3️⃣ Jalankan Local Server
 
@@ -568,8 +500,6 @@ Gunakan:
 - Laragon
 - XAMPP
 - MAMP
-
----
 
 ## 4️⃣ Jalankan Website
 
