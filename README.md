@@ -86,15 +86,15 @@ Oleh karena itu, dirancang Sistem Manajemen UMKM Desa berbasis website sebagai s
 - Membantu pengambilan keputusan desa
 - Mendukung promosi dan pemasaran produk UMKM
 
-<p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1ph_5YgivkfuGVDi-KJ7K8taVhxnWcvFb" width="70%">
-</p>
-
 ---
 
 # 🗣️ WAWANCARA STAKEHOLDER
 
 # 👨‍💼 Kepala Desa Gandoang
+
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=1omTCay29hZP6RUnANeyS4awZJaCkLtWp" width="70%">
+</p>
 
 ### Pertanyaan
 
