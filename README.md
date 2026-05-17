@@ -38,7 +38,7 @@ Industri Mikro dan Kecil (IMK) memiliki peran penting dalam perekonomian Indones
 Berdasarkan data BPS tahun 2024, terdapat sekitar 4,4 juta usaha IMK di Indonesia.
 
 <p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1k8yLY8Duc2lbgHNP-VrObB2X5J4oAt9M" width="90%">
+  <img src="https://drive.google.com/uc?export=view&id=18s8RuQeBogBJ4o7yStinCElo-5UhvJMX" width="90%">
 </p>
 
 ---
