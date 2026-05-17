@@ -519,6 +519,6 @@ http://localhost/Management_UMKM_Desa_Gandoang
 
 ---
 
-# ❤️ TERIMA KASIH
+#  TERIMA KASIH
 
-Project ini dibuat untuk mendukung digitalisasi UMKM Desa serta memenuhi kebutuhan akademik dalam pengembangan sistem informasi berbasis web.
+Project ini dibuat untuk mendukung digitalisasi UMKM Desa serta memenuhi tugas akhir matakuliah Rekayasa Perangkat Lunak & Pemrograman Berbasis Web.
