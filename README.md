@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1k8yLY8Duc2lbgHNP-VrObB2X5J4oAt9M" width="100%">
+  <img src="https://drive.google.com/uc?export=view&id=1mJfdTRTyXhvMdAM1dTbNhwjz9RvkxBBS" width="100%">
 </p>
 
 <h1 align="center">🌿 SISTEM MANAJEMEN UMKM DESA</h1>
