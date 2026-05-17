@@ -56,7 +56,7 @@ Sekitar 59,97% usaha mengalami berbagai kesulitan terutama pada:
 Kondisi tersebut menjadi salah satu hambatan utama perkembangan UMKM Desa.
 
 <p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1ltbA-FgiYVlxw_ueZhkA4sySe7ews8NB" width="90%">
+  <img src="https://drive.google.com/uc?export=view&id=1hZGBGtkyXFh_NCrPCKW0Cny6xpDEuOso" width="90%">
 </p>
 
 ---
@@ -70,7 +70,7 @@ Kondisi tersebut belum sepenuhnya sejalan dengan upaya pemerintah dalam:
 - Pemanfaatan Data Digital Nasional
 
 <p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1BL6C8zN405OuV1luc3lNF49fqo_ns9Sy" width="90%">
+  <img src="https://drive.google.com/uc?export=view&id=1Tf3YKX16AnRuFNwkruYDvTST_Kw4u6vZ" width="90%">
 </p>
 
 ---
