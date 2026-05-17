@@ -601,8 +601,8 @@ Oleh karena itu, dirancang Sistem Manajemen UMKM Desa berbasis website sebagai s
 
 # ⏱️ BEBAN KERJA PENGEMBANGAN
 
-| Fitur | PIC | Estimasi Waktu | Workload Detail |
-|---|---|---|---|
+| Fitur | PIC | Estimasi Waktu |
+|---|---|---|
 | Registrasi & Login | Bajang Riau Asqor | 1 Minggu | 
 | Kelola Profil UMKM | Dede Firdaus | 1 Minggu | 
 | Kelola Produk | Aldi Wijaya | 1 Minggu | 
