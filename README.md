@@ -603,13 +603,13 @@ Oleh karena itu, dirancang Sistem Manajemen UMKM Desa berbasis website sebagai s
 
 | Fitur | PIC | Estimasi Waktu | Workload Detail |
 |---|---|---|---|
-| Registrasi & Login | Bajang Riau Asqor | 1 Minggu | Sistem keamanan akun, enkripsi password, session, dan hak akses |
-| Kelola Profil UMKM | Dede Firdaus | 1 Minggu | Form data usaha, upload foto profil dan logo |
-| Kelola Produk | Aldi Wijaya | 1 Minggu | CRUD produk dan upload gambar |
-| Pengajuan Bantuan | Muhammad Arif Wicaksono | 1.5 Minggu | Pengiriman dokumen dan validasi berkas |
-| Validasi Bantuan | Muhammad Abdul Halim | 1.5 Minggu | Dashboard validasi bantuan dan perubahan status |
-| Landing Page & Katalog | Aldi Wijaya | 1 Minggu | Tampilan publik dan katalog |
-| Journey UMKM | Bajang Riau Asqor | 1 Minggu | Riwayat perjalanan UMKM |
+| Registrasi & Login | Bajang Riau Asqor | 1 Minggu | 
+| Kelola Profil UMKM | Dede Firdaus | 1 Minggu | 
+| Kelola Produk | Aldi Wijaya | 1 Minggu | 
+| Pengajuan Bantuan | Muhammad Arif Wicaksono | 1.5 Minggu | 
+| Validasi Bantuan | Muhammad Abdul Halim | 1.5 Minggu | 
+| Landing Page & Katalog | Aldi Wijaya | 1 Minggu | 
+| Journey UMKM | Bajang Riau Asqor | 1 Minggu | 
 
 ---
 
