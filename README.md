@@ -668,3 +668,44 @@ Management_UMKM_Desa_Gandoang/
 ├── docs/
 ├── index.php
 └── README.md
+```
+
+---
+
+# ▶️ CARA MENJALANKAN PROJECT
+
+## 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/Rif340/Management_UMKM_Desa_Gandoang.git
+```
+
+## 2️⃣ Import Database
+
+Import database ke phpMyAdmin atau MySQL.
+
+## 3️⃣ Jalankan Local Server
+
+Gunakan:
+- Laragon
+- XAMPP
+- MAMP
+
+## 4️⃣ Jalankan Website
+
+```txt
+http://localhost/Management_UMKM_Desa_Gandoang
+```
+
+---
+
+# 📌 STATUS PROJECT
+
+🚧 On Development
+
+---
+
+#  TERIMA KASIH
+
+Project ini dibuat untuk mendukung digitalisasi UMKM Desa serta memenuhi tugas akhir matakuliah Rekayasa Perangkat Lunak & Pemrograman Berbasis Web.
+
