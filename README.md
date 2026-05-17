@@ -130,6 +130,10 @@ Oleh karena itu, dirancang Sistem Manajemen UMKM Desa berbasis website sebagai s
 
 # 🐟 UMKM Budidaya Lele
 
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=1dho7JTbpaNF7-RfIyB0tDQOK4C4T9NsZ" width="70%">
+</p>
+
 ### Permasalahan
 
 - Modal usaha masih terbatas
